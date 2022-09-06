@@ -45,5 +45,32 @@ class FirstClass {
         // Strings must be declared with a type and use quotes.
         String i = "Hello!!";
         System.out.println("Prints the String: " + i);
+
+        // If Else statements (They are just like JS if statements)
+        int age = 30;
+        if (age < 16) {
+            System.out.println("Too Young");
+        } else {
+            System.out.println("Welcome!");
+        }
+
+        // Switch Statements:
+        int day = 3;
+
+        switch(day) {
+            case 1: 
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3: 
+                System.out.println("Wednesday");
+                break;
+            default: 
+                System.out.println("No Week yet!");
+        }
+
+
     }
 }
